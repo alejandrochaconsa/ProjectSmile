@@ -1,0 +1,52 @@
+.meals{
+
+  padding-top: 20px;
+
+  .search{
+    margin-top:10px;
+  }
+  .list-title{
+    margin: 10px;
+
+    .badge{
+      font-size: 30px;
+      color: white;
+      background: gray;
+      padding: 7px;
+    }
+
+  }
+  .list-group-item{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .list-header{
+    background: lightgray;
+    font-size: 32px;
+  }
+  .btn-group{
+    padding-bottom : 14px;
+  }
+
+  .scan-meal-btn{
+    font-size: 24px;
+    width:100%;
+  }
+  .restaurant-name{
+    padding-top: 16px;
+  }
+
+  .caret-col{
+    padding-top: 18px;
+
+    .price{
+      font-size: 18px;
+    }
+
+    .caret{
+      border: 0px;
+
+    }
+  }
+}

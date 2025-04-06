@@ -1,0 +1,49 @@
+<ion-view view-title="Go Green">
+    <ion-content>
+        <div class="container-fluid">
+            <div class="row filter-map">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-filter"></span></span>
+                        <input type="text" class="form-control" placeholder="Search for..." aria-describedby="basic-addon1">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="angular-google-map-container">
+            <ui-gmap-google-map center="map.location || map.center" zoom="map.zoom">
+                <!--<ui-gmap-marker coords="map.center" options="map.marker.options"-->
+                                <!--events="map.marker.events" idkey="'1000'">-->
+                <!--</ui-gmap-marker>-->
+
+                <ui-gmap-marker coords="map.markers[0].location" options="map.marker.options" idkey="'map.markers[0].id'">
+                </ui-gmap-marker>
+
+                <ui-gmap-marker coords="map.markers[1].location" options="map.marker.options" idkey="'map.markers[1].id'"
+                                icon="{url: 'images/barber.jpg'}">
+                </ui-gmap-marker>
+
+                <ui-gmap-marker coords="map.markers[2].location" options="map.marker.options" idkey="'map.markers[2].id'"
+                                icon="{url: 'images/shelter.jpg'}">
+                </ui-gmap-marker>
+
+                <ui-gmap-marker coords="map.markers[3].location" options="map.marker.options" idkey="'map.markers[3].id'"
+                                icon="{url: 'images/shelter.jpg'}">
+                </ui-gmap-marker>
+                <ui-gmap-marker coords="map.markers[4].location" options="map.marker.options" idkey="'map.markers[4].id'"
+                                icon="{url: 'images/shelter.jpg'}">
+                </ui-gmap-marker>
+                <ui-gmap-marker coords="map.markers[5].location" options="map.marker.options" idkey="'map.markers[5].id'"
+                                icon="{url: 'images/food.jpg'}">
+                </ui-gmap-marker>
+                <ui-gmap-marker coords="map.markers[6].location" options="map.marker.options" idkey="'map.markers[6].id'"
+                                icon="{url: 'images/food.jpg'}">
+                </ui-gmap-marker>
+            </ui-gmap-google-map>
+
+        </div>
+
+        </div>
+    </ion-content>
+</ion-view>

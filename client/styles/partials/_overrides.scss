@@ -1,0 +1,17 @@
+.shutter, .use-photo {
+  background-color: #428bca !important;
+}
+.cancel, .new-photo{
+  background-color: gray !important;
+  color: black;
+}
+
+.tab-item{
+  color: rgba(56, 126, 245, 0.7) !important;
+  font-weight: 600 !important;
+  &.tab-item-active{
+    color: #395C98 !important;
+    opacity: 1 !important;
+  }
+}
+

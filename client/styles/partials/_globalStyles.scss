@@ -1,0 +1,24 @@
+input{
+  border: 1px solid lightgray !important;
+  padding-left: 4px !important;
+}
+
+.padding-top-20{
+  padding-top: 20px !important;
+}
+
+
+.padding-bottom-20{
+  padding-bottom: 20px !important;
+}
+
+.filter-map{
+  position: absolute;
+  margin-top: 40px;
+  z-index: 999;
+}
+
+.angular-google-map-container {
+  height: 600px;
+  width: 100%;
+}
